@@ -1,0 +1,46 @@
+
+body {
+     background-image: url("https://images.squarespace-cdn.com/content/v1/636b5e138fd7c9613e2a8b61/1675334640060-7C0U4PLRM6QQHY0QMMTB/OBMC+Quadrangle.jpg")
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+h1{
+    font-size:50px;
+    text-align:center;
+    color:black;
+}
+
+.main {
+           width: 80%;
+           max-width: 700px;
+    color:white;
+   background-color: rgba(108, 117, 125, 0.85);
+    text-align:center;
+    
+        
+        }
+        .center-wrapper {
+            flex:1;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+nav {
+    color:green;
+}
+
+img {
+   height:100px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
